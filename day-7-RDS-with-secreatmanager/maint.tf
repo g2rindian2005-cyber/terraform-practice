@@ -49,7 +49,8 @@ resource "aws_db_instance" "main" {
   db_name  = "mydatabase"
   username = "admin"
   password = "gokul12345"
-
+#here you can use secreat manager
+# manage_master_user_password = true #rds and secret manager manage this password
   db_subnet_group_name = aws_db_subnet_group.my_ssg.name
   parameter_group_name = "default.mysql8.0"
 
