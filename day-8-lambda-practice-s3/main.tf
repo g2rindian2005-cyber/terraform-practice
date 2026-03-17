@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "bucket" {
   bucket ="gokul-lambda-code-bucket-739013795335"
 }
 
-#upoad ZIP code to s3 bucket
+#upload ZIP code to s3 bucket
 resource "aws_s3_object" "lambda_zip" {
   bucket = aws_s3_bucket.bucket.id
   key    = "gokul/lambda_function.zip"

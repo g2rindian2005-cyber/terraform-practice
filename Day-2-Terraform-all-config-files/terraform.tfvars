@@ -2,8 +2,8 @@
 aws_region = "us-east-1"
 
 # AMI and Instance Configuration
-ami_id        = "ami-02dfbd4ff395f2a1b"
-instance_type = "t2.nano"
+#ami_id        = "ami-02dfbd4ff395f2a1b"
+#@instance_type = "t2.micro"
 
 # Account IDs
 account1_id = "123456789012"  # Replace with your Account 1 ID
