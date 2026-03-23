@@ -5,7 +5,6 @@ resource "aws_vpc" "this" {
     Name = var.environment
   }
 }
-
 resource "aws_subnet" "this" {
   for_each = var.subnets
 
