@@ -8,7 +8,7 @@ sudo yum install git -y
 
 #-------java dependency for jenkins------------
 
-sudo yum install java-17-amazon-corretto.x86_64
+sudo dnf install -y java-21-amazon-corretto
 
 
 #------------jenkins install-------------
